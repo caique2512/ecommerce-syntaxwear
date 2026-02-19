@@ -1,0 +1,49 @@
+/* ===================================
+   CSS VARIABLES - Cores, espaços, tipografia
+   =================================== */
+
+:root {
+    /* CORES PRIMÁRIAS */
+    --color-primary: #000000;
+    --color-secondary: #ffffff;
+    --color-accent: #ff6b6b;
+    
+    /* CORES DE ESTADO */
+    --color-success: #28a745;
+    --color-warning: #ffc107;
+    --color-error: #dc3545;
+    --color-info: #17a2b8;
+    
+    /* TONS DE CINZA */
+    --color-gray-50: #f9fafb;
+    --color-gray-100: #f3f4f6;
+    --color-gray-300: #d1d5db;
+    --color-gray-500: #6b7280;
+    --color-gray-700: #374151;
+    --color-gray-900: #111827;
+    
+    /* ESPAÇAMENTOS */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    --spacing-2xl: 3rem;
+    --spacing-3xl: 4rem;
+    
+    /* BORDER RADIUS */
+    --radius-sm: 0.25rem;
+    --radius-md: 0.5rem;
+    --radius-lg: 1rem;
+    --radius-full: 9999px;
+    
+    /* SOMBRAS */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    
+    /* TRANSIÇÕES */
+    --transition-fast: 150ms ease-in-out;
+    --transition-base: 250ms ease-in-out;
+    --transition-slow: 350ms ease-in-out;
+}

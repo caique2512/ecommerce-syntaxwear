@@ -1,0 +1,22 @@
+/* ===================================
+   STYLE.CSS - Arquivo principal
+   Importa todos os arquivos CSS
+   =================================== */
+
+/* BASE - Fundação */
+@import url('./base/variables.css');
+@import url('./base/reset.css');
+@import url('./base/typography.css');
+
+/* LAYOUT - Estrutura */
+@import url('./layout/grid.css');
+@import url('./layout/header.css');
+@import url('./layout/footer.css');
+
+/* COMPONENTS - Componentes reutilizáveis */
+@import url('./components/buttons.css');
+@import url('./components/cards.css');
+@import url('./components/product-card.css');
+
+/* PAGES - Estilos específicos de páginas */
+@import url('./pages/home.css');

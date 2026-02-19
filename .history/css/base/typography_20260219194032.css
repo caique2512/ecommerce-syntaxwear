@@ -1,0 +1,76 @@
+/* ===================================
+   TIPOGRAFIA - Regras globais de texto
+   =================================== */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color-gray-900);
+    background-color: var(--color-secondary);
+}
+
+/* HEADINGS */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: var(--spacing-md);
+    color: var(--color-primary);
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1.1rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+/* PARÁGRAFOS */
+p {
+    margin-bottom: var(--spacing-md);
+    line-height: 1.6;
+}
+
+/* LINKS */
+a {
+    color: var(--color-primary);
+    transition: color var(--transition-base);
+}
+
+a:hover {
+    color: var(--color-accent);
+}
+
+/* CÓDIGO */
+code, pre {
+    font-family: 'Courier New', monospace;
+    background-color: var(--color-gray-100);
+    padding: var(--spacing-sm);
+    border-radius: var(--radius-md);
+}
+
+/* DESTAQUE */
+strong, b {
+    font-weight: 700;
+}
+
+em, i {
+    font-style: italic;
+}

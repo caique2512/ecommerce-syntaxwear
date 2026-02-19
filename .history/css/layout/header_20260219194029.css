@@ -1,0 +1,12 @@
+/* ===================================
+   HEADER - Cabeçalho do site
+   =================================== */
+
+header {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    padding: var(--spacing-lg) var(--spacing-xl);
+    box-shadow: var(--shadow-md);
+}
+
+/* Será desenvolvido no próximo passo */
