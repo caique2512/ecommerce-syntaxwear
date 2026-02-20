@@ -27,7 +27,7 @@
     color: #333333;
 }
 
-.nav-center a:hover, .nav-right a:hover {
+.nav-center a:hover, .nav-right:hover {
     color: #7c3aed;
 }
 

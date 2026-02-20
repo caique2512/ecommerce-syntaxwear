@@ -22,12 +22,12 @@
     gap: 2.5rem;
 }
 
-.nav-center a, .nav-right a {
+.nav-center a, .nav-right {
     font-size: 1.25rem;
-    color: #333333;
+    colo
 }
 
-.nav-center a:hover, .nav-right a:hover {
+.nav-center a:hover, .nav-right:hover {
     color: #7c3aed;
 }
 
