@@ -1,0 +1,30 @@
+.categories-section {
+    background-color: aqua;
+    padding: 40px 0px 40px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.category-card {
+    background-color: rgb(15, 84, 61);
+    width: 317px;
+    height: 500px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-name {
+    font-size: 1.25rem;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+}
+
+.casual {
+    background: ;
+}

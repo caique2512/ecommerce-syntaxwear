@@ -1,0 +1,13 @@
+.categories-section {
+    background-color: aqua;
+    padding: 40px 0px 40px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.category-name {
+    font-size: 1.25rem;
+    margin-top: 1;
+}

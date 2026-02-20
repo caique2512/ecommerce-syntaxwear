@@ -1,0 +1,21 @@
+.categories-section {
+    background-color: aqua;
+    padding: 40px 0px 40px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.category-card {
+    background-color: aquamarine;
+    width: ;
+}
+
+.category-name {
+    font-size: 1.25rem;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+}
