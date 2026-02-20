@@ -1,0 +1,33 @@
+.top1 {
+    grid-area: top1;
+    background-color: aqua;
+}
+
+.top2 {
+    grid-area: top2;
+    background-color: bisque;
+}
+
+.midL {
+    grid-area: midL;
+    background-color: black;
+}
+
+.midR {
+    grid-area: midR;
+    background-color: blue;
+}
+
+.bottomL {
+    grid-area: bottomL;
+    background-color: blueviolet;
+}
+
+.bottomR {
+    grid-area: bottomR;
+    background-color: brown;
+}
+
+.product-grid {
+    
+}

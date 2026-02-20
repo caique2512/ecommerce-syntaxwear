@@ -1,0 +1,25 @@
+.top1 {
+    grid-area: top1;
+    background-color: aqua;
+}
+
+.top2 {
+    grid-area: top2;
+    ba
+}
+
+.midL {
+    grid-area: midL;
+}
+
+.midR {
+    grid-area: midR;
+}
+
+.bottomL {
+    grid-area: bottomL;
+}
+
+.bottomR {
+    grid-area: bottomR;
+}

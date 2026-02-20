@@ -1,0 +1,41 @@
+.top1 {
+    grid-area: top1;
+    background: url(../../images/products/modelo-homem.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.top2 {
+    grid-area: top2;
+    
+}
+
+.midL {
+    grid-area: midL;
+    background-color: black;
+}
+
+.midR {
+    grid-area: midR;
+    background-color: blue;
+}
+
+.bottomL {
+    grid-area: bottomL;
+    background-color: blueviolet;
+}
+
+.bottomR {
+    grid-area: bottomR;
+    background-color: brown;
+}
+
+.grid-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 300px);
+    grid-template-areas: 
+    "top1 top1 top2 top2"
+    "top1 top1 midL midR"
+    "bottomL bottomL midL bottomR";
+    gap: 30px;
+}

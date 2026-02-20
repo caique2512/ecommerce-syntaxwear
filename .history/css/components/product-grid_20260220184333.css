@@ -1,0 +1,44 @@
+.top1 {
+    grid-area: top1;
+    background: url(../../images/products/modelo-homem.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.top2 {
+    grid-area: top2;
+    background: url(../../images/products/tênis-roxo-grid.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.midL {
+    grid-area: midL;
+    background: url(../../images/products/modelo\ feminino.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.midR {
+    grid-area: midR;
+    background: url(../../images/products/futurista-grid.jpg) no-repeat center;
+    background-size
+}
+
+.bottomL {
+    grid-area: bottomL;
+    background-color: blueviolet;
+}
+
+.bottomR {
+    grid-area: bottomR;
+    background-color: brown;
+}
+
+.grid-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 300px);
+    grid-template-areas: 
+    "top1 top1 top2 top2"
+    "top1 top1 midL midR"
+    "bottomL bottomL midL bottomR";
+    gap: 30px;
+}
