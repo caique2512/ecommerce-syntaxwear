@@ -1,0 +1,19 @@
+.footer {
+    background-color: #333333;
+    color: white;
+}
+
+.footer-content .foot {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+}
+
+.footer-right {
+    display: flex;
+}
+
+.footer-nav ul{
+    display: flex;
+}
