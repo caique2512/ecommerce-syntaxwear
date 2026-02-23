@@ -17,10 +17,7 @@
     height: 48px;
 }
 
-.nav-center ul {
-    display: flex;
-    gap: 2.5rem;
-    padding-left: 60%;
+
 }
 
 .nav-center a, .nav-right a {

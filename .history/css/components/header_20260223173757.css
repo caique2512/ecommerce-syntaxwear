@@ -7,7 +7,7 @@
     border-radius: 15px;
     z-index: 999;
     display: flex;
-    justify-content: space-between;
+    justify-content: sp;
     align-items: center;
     padding: 0.255rem 1.25rem;
     background-color: white;
@@ -20,7 +20,6 @@
 .nav-center ul {
     display: flex;
     gap: 2.5rem;
-    padding-left: 60%;
 }
 
 .nav-center a, .nav-right a {

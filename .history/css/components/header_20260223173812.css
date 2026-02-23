@@ -1,5 +1,5 @@
 .header {
-    position: fixed;
+    
     top: 60px;
     left: 50%;
     transform: translate(-50%);
@@ -20,7 +20,6 @@
 .nav-center ul {
     display: flex;
     gap: 2.5rem;
-    padding-left: 60%;
 }
 
 .nav-center a, .nav-right a {

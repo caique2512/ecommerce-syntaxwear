@@ -20,7 +20,6 @@
 .nav-center ul {
     display: flex;
     gap: 2.5rem;
-    padding-left: 60%;
 }
 
 .nav-center a, .nav-right a {
@@ -121,7 +120,5 @@
         display: block;
     }
 
-    .menu-toggle:checked ~ .nav-container{
-        right: 0;
-    }
+
 }

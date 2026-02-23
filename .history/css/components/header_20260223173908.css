@@ -20,7 +20,7 @@
 .nav-center ul {
     display: flex;
     gap: 2.5rem;
-    padding-left: 60%;
+    margin: 0 au;
 }
 
 .nav-center a, .nav-right a {
